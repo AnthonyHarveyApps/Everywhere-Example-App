@@ -2,7 +2,7 @@
 //  Everywhere_Example_AppApp.swift
 //  Everywhere Example App
 //
-//  Created by Anthony Harvey on 6/1/23.
+//  Created by Anthony Harvey on 6/2/23.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct Everywhere_Example_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
         }
     }
 }

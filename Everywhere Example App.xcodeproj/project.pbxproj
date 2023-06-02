@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		5FDE41532A2962B9004157D8 /* Everywhere_Example_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDE41522A2962B9004157D8 /* Everywhere_Example_AppApp.swift */; };
-		5FDE41552A2962B9004157D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDE41542A2962B9004157D8 /* ContentView.swift */; };
 		5FDE41572A2962BA004157D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE41562A2962BA004157D8 /* Assets.xcassets */; };
 		5FDE415A2A2962BA004157D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE41592A2962BA004157D8 /* Preview Assets.xcassets */; };
 		5FDE41642A2962BA004157D8 /* Everywhere_Example_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDE41632A2962BA004157D8 /* Everywhere_Example_AppTests.swift */; };
 		5FDE416E2A2962BA004157D8 /* Everywhere_Example_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDE416D2A2962BA004157D8 /* Everywhere_Example_AppUITests.swift */; };
 		5FDE41702A2962BA004157D8 /* Everywhere_Example_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDE416F2A2962BA004157D8 /* Everywhere_Example_AppUITestsLaunchTests.swift */; };
+		5FDE417D2A296314004157D8 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDE417C2A296314004157D8 /* MainTabView.swift */; };
+		5FDE417F2A29658E004157D8 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDE417E2A29658E004157D8 /* MessagesView.swift */; };
+		5FDE41822A2968C8004157D8 /* SOSSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDE41812A2968C8004157D8 /* SOSSliderView.swift */; };
+		5FDE41842A296AB6004157D8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDE41832A296AB6004157D8 /* Constants.swift */; };
+		5FDE41892A29A300004157D8 /* MapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDE41882A29A300004157D8 /* MapsView.swift */; };
+		5FDE418B2A29A31A004157D8 /* CheckinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDE418A2A29A31A004157D8 /* CheckinView.swift */; };
+		5FDE418D2A29A326004157D8 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDE418C2A29A326004157D8 /* FeedView.swift */; };
+		5FDE418F2A29A33C004157D8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDE418E2A29A33C004157D8 /* SettingsView.swift */; };
+		5FDE41912A29A3AC004157D8 /* SOSAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDE41902A29A3AC004157D8 /* SOSAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,6 @@
 /* Begin PBXFileReference section */
 		5FDE414F2A2962B9004157D8 /* Everywhere Example App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Everywhere Example App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDE41522A2962B9004157D8 /* Everywhere_Example_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Everywhere_Example_AppApp.swift; sourceTree = "<group>"; };
-		5FDE41542A2962B9004157D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5FDE41562A2962BA004157D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FDE41592A2962BA004157D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5FDE415F2A2962BA004157D8 /* Everywhere Example AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Everywhere Example AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +51,15 @@
 		5FDE41692A2962BA004157D8 /* Everywhere Example AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Everywhere Example AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDE416D2A2962BA004157D8 /* Everywhere_Example_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Everywhere_Example_AppUITests.swift; sourceTree = "<group>"; };
 		5FDE416F2A2962BA004157D8 /* Everywhere_Example_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Everywhere_Example_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5FDE417C2A296314004157D8 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		5FDE417E2A29658E004157D8 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		5FDE41812A2968C8004157D8 /* SOSSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSSliderView.swift; sourceTree = "<group>"; };
+		5FDE41832A296AB6004157D8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5FDE41882A29A300004157D8 /* MapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsView.swift; sourceTree = "<group>"; };
+		5FDE418A2A29A31A004157D8 /* CheckinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinView.swift; sourceTree = "<group>"; };
+		5FDE418C2A29A326004157D8 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		5FDE418E2A29A33C004157D8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5FDE41902A29A3AC004157D8 /* SOSAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSAlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +111,16 @@
 			isa = PBXGroup;
 			children = (
 				5FDE41522A2962B9004157D8 /* Everywhere_Example_AppApp.swift */,
-				5FDE41542A2962B9004157D8 /* ContentView.swift */,
+				5FDE417C2A296314004157D8 /* MainTabView.swift */,
+				5FDE417E2A29658E004157D8 /* MessagesView.swift */,
+				5FDE41882A29A300004157D8 /* MapsView.swift */,
+				5FDE418A2A29A31A004157D8 /* CheckinView.swift */,
+				5FDE418C2A29A326004157D8 /* FeedView.swift */,
+				5FDE418E2A29A33C004157D8 /* SettingsView.swift */,
+				5FDE41802A2968B1004157D8 /* UIComponents */,
 				5FDE41562A2962BA004157D8 /* Assets.xcassets */,
 				5FDE41582A2962BA004157D8 /* Preview Content */,
+				5FDE41832A296AB6004157D8 /* Constants.swift */,
 			);
 			path = "Everywhere Example App";
 			sourceTree = "<group>";
@@ -125,6 +148,15 @@
 				5FDE416F2A2962BA004157D8 /* Everywhere_Example_AppUITestsLaunchTests.swift */,
 			);
 			path = "Everywhere Example AppUITests";
+			sourceTree = "<group>";
+		};
+		5FDE41802A2968B1004157D8 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				5FDE41812A2968C8004157D8 /* SOSSliderView.swift */,
+				5FDE41902A29A3AC004157D8 /* SOSAlertView.swift */,
+			);
+			path = UIComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +289,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FDE41552A2962B9004157D8 /* ContentView.swift in Sources */,
+				5FDE418D2A29A326004157D8 /* FeedView.swift in Sources */,
+				5FDE41842A296AB6004157D8 /* Constants.swift in Sources */,
 				5FDE41532A2962B9004157D8 /* Everywhere_Example_AppApp.swift in Sources */,
+				5FDE418F2A29A33C004157D8 /* SettingsView.swift in Sources */,
+				5FDE41822A2968C8004157D8 /* SOSSliderView.swift in Sources */,
+				5FDE41892A29A300004157D8 /* MapsView.swift in Sources */,
+				5FDE417D2A296314004157D8 /* MainTabView.swift in Sources */,
+				5FDE417F2A29658E004157D8 /* MessagesView.swift in Sources */,
+				5FDE418B2A29A31A004157D8 /* CheckinView.swift in Sources */,
+				5FDE41912A29A3AC004157D8 /* SOSAlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +465,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +495,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
